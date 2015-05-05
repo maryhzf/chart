@@ -21,6 +21,10 @@ nov	120		82		38
 dec	130		88		42
 ```
 
+Sample ideal outcome from Matrix Data
+
+![Line Chart](https://github.com/ff55lab/chart/blob/master/lineChart.png)
+
 Sample Android Layout
 
 activity_main.xml
@@ -80,7 +84,3 @@ lineChart.setOnGetDataListener(new Line.OnGetDataListener() {
     }
 });
 ```
-
-Sample outcome on View
-
-![Line Chart](https://github.com/ff55lab/chart/blob/master/lineChart.png)
