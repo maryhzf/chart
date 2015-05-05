@@ -4,6 +4,7 @@ Provides simple way to draw Chart on View.
 
 ## Line Chart
 
+```sh
 **Sample Matrix Data**
 	profit	lost	margin
 jan	20		10		10
@@ -18,9 +19,11 @@ sep	100		78		22
 oct	110		80		30
 nov	120		82		38
 dec	130		88		42
+```
 
 **Sample Android Layout**
 activity_main.xml
+```sh
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -33,9 +36,11 @@ activity_main.xml
         android:background="#ffe3e3e3"/>
 
 </RelativeLayout>
+```
 
 Sample Android Code to draw Line Chart on View
 ActivityMain.java
+```sh
 Line lineChart = (Line) findViewById(R.id.chartView);
 lineChart.setOnGetDataListener(new Line.OnGetDataListener() {
     @Override
@@ -72,3 +77,4 @@ lineChart.setOnGetDataListener(new Line.OnGetDataListener() {
         }
     }
 });
+```
