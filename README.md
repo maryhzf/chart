@@ -1,11 +1,11 @@
-### Chart for Android
+# Chart for Android
 Chart for Android
 Provides simple way to draw Chart on View.
 
 ## Line Chart
 
+Sample Matrix Data
 ```sh
-**Sample Matrix Data**
 	profit	lost	margin
 jan	20		10		10
 feb	30		22		8
@@ -21,7 +21,8 @@ nov	120		82		38
 dec	130		88		42
 ```
 
-**Sample Android Layout**
+Sample Android Layout
+
 activity_main.xml
 ```sh
 <RelativeLayout
@@ -39,6 +40,7 @@ activity_main.xml
 ```
 
 Sample Android Code to draw Line Chart on View
+
 ActivityMain.java
 ```sh
 Line lineChart = (Line) findViewById(R.id.chartView);
@@ -78,3 +80,7 @@ lineChart.setOnGetDataListener(new Line.OnGetDataListener() {
     }
 });
 ```
+
+Sample outcome on View
+
+![Line Chart](https://github.com/ff55lab/chart/blob/master/lineChart.png)
